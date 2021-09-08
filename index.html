@@ -56,11 +56,12 @@
 </head>
 
 <body>
-    <!-- <div class="container-fluid bg-dark d-none" >
-        <form action="#" class="search__form" id="form-search">
-            <input type="search" name="" id="">
+    <div class="search-form none" id="form">
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." class="input-search" required>
+            <button type="submit" class="search-button"><i class="bx bx-search"></i></button>
         </form>
-    </div> -->
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark" id="top-navbar">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img src="./assets/img/logo.png" alt="">
@@ -119,8 +120,8 @@
                     <a class="nav-link" href="shop.html">Shop</a>
                 </li>
             </ul>
-            <a class="nav-link" href="#" id="search-form" role="button" data-toggle="collapse" data-target="#form-search" aria-controls="form-search" aria-expanded="false" aria-label="Toggle">
-                <i class="bx bx-search"></i>
+            <a href="#" id="form-search" class="order-1 search-icon d-flex align-items-center mt-3" style="text-decoration: none;">
+                <i class="bx bx-search bx-fw" style="font-weight: bold;color:black;"></i>
             </a>
         </div>
     </nav>

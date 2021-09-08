@@ -101,6 +101,54 @@ img::selection {
     display: none;
 }
 
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #000;
+    padding: .5rem;
+    transition: .5s ease-in-out;
+}
+
+.search-form .search-box {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.search-form .search-box .input-search {
+    color: #fff;
+    font-size: 1rem;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+}
+
+.search-form .search-box .input-search::placeholder {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.search-form .search-box .search-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .5rem .8rem;
+    background: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.none {
+    transition: .5s ease-in;
+    display: none;
+}
+
 #main-header img {
     height: 458px;
 }

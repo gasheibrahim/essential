@@ -25,7 +25,7 @@
             text-align: center;
             text-transform: uppercase;
         }
-
+        
         .d-flex {
             color: #6f6f6f;
             text-decoration: none;
@@ -34,7 +34,7 @@
             text-align: center;
             text-transform: uppercase;
         }
-
+        
         .description {
             font-size: 1.375rem;
             color: black;
@@ -43,7 +43,7 @@
             font-family: "Playfair Display Rg";
             text-transform: uppercase;
         }
-
+        
         .descr {
             color: #000000;
             font-size: 37.5px;
@@ -56,76 +56,75 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark" id="top-navbar">
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="./assets/img/logo.png" alt="">
-      </a>
+    <div class="search-form none" id="form">
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." class="input-search" required>
+            <button type="submit" class="search-button"><i class="bx bx-search"></i></button>
+        </form>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top-navbar">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="./assets/img/logo.png" alt="">
+        </a>
 
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#myNav"
-          aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="myNav">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown no-arrow">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">fashion & beauty <i class="bx bx-chevron-down bx-fw"></i></a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
-                      <a class="dropdown-item" href="style.html">Style</a>
-                      <a class="dropdown-item" href="skincare.html">Skincare</a>
-                      <a class="dropdown-item" href="hair.html">Hair</a></a>
-                      <a class="dropdown-item" href="makeup.html">Makeup</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown no-arrow">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">living <i class="bx bx-chevron-down bx-fw"></i></a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
-                      <a class="dropdown-item" href="food.html">Food</a>
-                      <a class="dropdown-item" href="travel.html">Travel</a>
-                      <a class="dropdown-item" href="home.html">Home Decor</a>
-                      <a class="dropdown-item" href="entertainment.html">Entertainment</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown no-arrow">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">carrer & finance <i class="bx bx-chevron-down bx-fw"></i></a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
-                      <a class="dropdown-item" href="career.html">Career Profiles</a>
-                      <a class="dropdown-item" href="money.html">Money</a>
-                      <a class="dropdown-item" href="work.html">Work Skills</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown no-arrow">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">wellness <i class="bx bx-chevron-down bx-fw"></i></a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
-                      <a class="dropdown-item" href="relationship.html">relationships</a>
-                      <a class="dropdown-item" href="physical.html">physical health</a>
-                      <a class="dropdown-item" href="mental.html">mental health</a>
-                      <a class="dropdown-item" href="environment.html">envirnoment</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown no-arrow">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">motherhood <i class="bx bx-chevron-down bx-fw"></i></a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
-                      <a class="dropdown-item" href="pregnacy.html">Pregnancy</a>
-                      <a class="dropdown-item" href="baby.html">Baby</a>
-                      <a class="dropdown-item" href="parenting.html">Parenting</a>
-                  </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="shop.html">Shop</a>
-              </li>
-          </ul>
-          <a class="nav-link" href="#" id="search-form" role="button" data-toggle="collapse"
-              data-target="#form-search" aria-controls="form-search" aria-expanded="false" aria-label="Toggle">
-              <i class="bx bx-search"></i>
-          </a>
-      </div>
-  </nav>
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">fashion & beauty <i class="bx bx-chevron-down bx-fw"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="style.html">Style</a>
+                        <a class="dropdown-item" href="skincare.html">Skincare</a>
+                        <a class="dropdown-item" href="hair.html">Hair</a></a>
+                        <a class="dropdown-item" href="makeup.html">Makeup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">living <i class="bx bx-chevron-down bx-fw"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="food.html">Food</a>
+                        <a class="dropdown-item" href="travel.html">Travel</a>
+                        <a class="dropdown-item" href="home.html">Home Decor</a>
+                        <a class="dropdown-item" href="entertainment.html">Entertainment</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">carrer & finance <i class="bx bx-chevron-down bx-fw"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="career.html">Career Profiles</a>
+                        <a class="dropdown-item" href="money.html">Money</a>
+                        <a class="dropdown-item" href="work.html">Work Skills</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">wellness <i class="bx bx-chevron-down bx-fw"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="relationship.html">relationships</a>
+                        <a class="dropdown-item" href="physical.html">physical health</a>
+                        <a class="dropdown-item" href="mental.html">mental health</a>
+                        <a class="dropdown-item" href="environment.html">envirnoment</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">motherhood <i class="bx bx-chevron-down bx-fw"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="pregnacy.html">Pregnancy</a>
+                        <a class="dropdown-item" href="baby.html">Baby</a>
+                        <a class="dropdown-item" href="parenting.html">Parenting</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+            </ul>
+            <a href="#" id="form-search" class="order-1 search-icon d-flex align-items-center mt-3" style="text-decoration: none;">
+                <i class="bx bx-search bx-fw" style="font-weight: bold;color:black;"></i>
+            </a>
+        </div>
+    </nav>
     <main id="main-content">
         <div class="container">
             <div class="main__header-title text-center">
@@ -219,7 +218,7 @@
                     </div>
                 </div>
             </div>
-    
+
         </div>
     </main>
     <footer class="text-center text-lg-start bg-light text-muted " style="margin-top:5rem; ">
